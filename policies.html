@@ -55,22 +55,21 @@
                     <a href="policies.html#gradeScale">Grading Scale</a>
                     <a href="policies.html#secondChance">Exam Clobber Policy</a>
                     <a href="policies.html#hwPartyOH">Homework Party and OH</a>
-                    <a href="policies.html#hwSgSubmission">Homework and Self-Grade Submission</a>
-                    <a href="policies.html#sgWalkthrough">Self-Grading Walkthrough Video</a>
-                    <a href="policies.html#readerGrades">Reader Grades</a>
-                    <a href="policies.html#hwEffort">Homework Effort</a>
-                    <a href="policies.html#hwScoring">Homework Scoring</a>
+                    <a href="policies.html#hwSubmission">Homework Submission </a>
+                    <a href="policies.html#exceptions">Exceptions & Accommodations</a>
                     <a href="policies.html#participation">Participation in Discussion</a>
-                    <a href="policies.html#labDiscussion">Lab and Discussion Policies</a>
-                    <a href="policies.html#exampolicy">Exam Policies</a>
-                    <a href="policies.html#proctoring">Exam Proctoring</a>
-                    <a href="policies.html#exceptions">Exceptions and Exam Accomodation</a>
+                    <a href="policies.html#labPolicy">Lab Policies</a>
+                    <a href="policies.html#examPolicy">Exam Policies</a>
+                    <a href="policies.html#academicHonesty">Academic Honesty</a>
                     <a href="policies.html#communication">Course Communication</a>
-                    <a href="policies.html#collaboration">Collaboration</a>
-                    <a href="policies.html#studyGroups">16A Study Groups</a>
-                    <a href="policies.html#help">Asking for Help</a>
+                    <a href="policies.html#collaboration">Collaboration on Homework</a>
+
+                    <a href="policies.html#help">Don't Be Afraid to Ask for Help</a>
+                    <a href="policies.html#health">Health-related Issues</a>
                     <a href="policies.html#inclusion">Inclusion</a>
-                    <a href="policies.html#honor">Honor</a>
+                    <a href="policies.html#honor">Berkeley Honor Code</a>
+                    <a href="policies.html#accommodation">Accommodation policy</a>
+                    <a href="policies.html#contentpolicy">Course Content Policy</a>
                     <a href="policies.html#otherresources">Resources</a>
                     <a href="policies.html#advice">Advice</a>
                   </div>
@@ -123,12 +122,544 @@ function getCurrFont() {
 <div class='row'>
     <a class="anchor" id="policies"></a>
 
-    <h2>Policies: THESE WILL BE UPDATED SHORTLY!</h2>
+    <h2>Policies</h2>
 
-    <h3>Course Info:</h3>
+    <h3>Course Info</h3>
     <a class="anchor" id="courseInfo"></a>
-<!-- Summer 2024-->
+    <!-- Summer 2024-->
+    <p>
+        EECS 16A is an introductory-level course that introduces students to the systems side of EECS. It emphasizes systems that interact with the world from an informational point of view. Design-oriented modeling and analysis are important themes throughout this course, and we anticipate that you’ll learn many mathematical concepts, tools, and techniques along the way.
+    </p>
+    <p>
+        Throughout the semester, you'll explore various topics chosen to provide you with a broad EECS-oriented academic foundation. The first half of the course covers essential mathematical prerequisites, primarily Linear Algebra. In the latter half, you'll apply your new-found knowledge to areas such as signal processing, dynamic systems, data analysis, and machine learning.
+    </p>
+    <p>
+        EECS 16A is designed to give you the solid conceptual understanding required for more advanced topics. We also hope this course will inform and inspire you as you consider how to specialize your studies within the EECS major.
+    </p>
+    <p>
+        All information regarding policies for the course are on this page as well as on posts on Ed. We also have two special email addresses for various purposes. Where applicable, please use these addresses so that all relevant course staff can view the message. Please post your technical or content-related questions on Ed, and direct private/personal questions to the relevant email address(es) below.  Please study this entire policies page before contacting the course staff.
+    </p>
+    <p>
+    <ul>
+        <li><b> eecs16a.lab@ </b>: for any lab-related questions or concerns.</li>
+        <li><b> eecs16a@ </b>: for anything else (including exam-related/administrative questions or concerns).</li>
+    </ul>
+
+    </p>
+    <p>
+        Please add berkeley.edu to the end of the email addresses above!
+    </p>
+    <p>
+        Note that descriptions of this course found on other campus websites may not be up to date. In cases of discrepancy, the policies specified on this site, as well as official announcements by the course staff on Ed, govern.
+    </p>
+
+    <h3>Grade Breakdown</h3>
+    <a class="anchor" id="gradeBreak"></a>
+
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="table-responsive">
+                <table border="3" class="table table-bordered table-striped table-hover table-condensed"
+                       style="width:90%;">
+                    <thead>
+                    <tr>
+                        <th style="background: #91c8d9" scope="col" class='col-md-1 center'>Category</th>
+                        <th style="background: #91c8d9" scope="col" class='col-md-2 center'>Points</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="center">Discussion Participation</td>
+                        <td class="center">25 points</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td class="center">Homework</td>
+                        <td class="center">50 points</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td class="center">Labs</td>
+                        <td class="center">45 points</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td class="center">Midterm 1</td>
+                        <td class="center">50 points</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td class="center">Midterm 2</td>
+                        <td class="center">50 points</td>
+                    </tr>
+                    </tbody>
+                    <tbody>
+                    <tr>
+                        <td class="center">Final</td>
+                        <td class="center">80 points</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
+        <div id="canvasParent" class='col-sm-7' style="position: relative">
+            <div id="gradebreakdown" style="height: 400px;"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script type="text/javascript">
+            google.charts.load('current', {'packages':['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                    ['Category', 'Percentage of Overall Grade'],
+                    ['Homework', 10% (Lowest two scores dropped)],
+                    ['Lab', 20% (Lowest two sessions dropped)],
+                    ['Exam 1', 20%],
+                    ['Exam 2', 25%],
+                    ['Exam 3', 25%],
+
+                ]);
+
+                var options = {
+                    'title': 'EECS 16A Grade Breakdown',
+                    'width': 550,
+                    'height': 400,
+                    'chartArea': {'width': '90%', 'height': '90%'},
+                    'legend': {'position': 'bottom'},
+                    'backgroundColor': { fill:'transparent' }
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('gradebreakdown'));
+                chart.draw(data, options);
+            }
+        </script>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    </script>
+
+    <p>
+        Roughly speaking, if you’re in the top 3/4 of your cohorts’ performance level this semester, you can count on a B- or above.  If you are in the top 1/3 of your cohorts’ performance level, you can count on an A- or above.
+    </p>
+
+    <h3>Grading Scale</h3>
+    <a class="anchor" id="gradeScale"></a>
+    <p>
+        This course is not curved. We define the following grading scale (in percentages):
+    <table class="table table-bordered table-striped" style="width: 30%">
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="background: #c4cef2">A</td>
+            <td>[93+)</td>
+            <td style="background: #c4cef2">A-</td>
+            <td>[90+)</td>
+
+
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <td style="background: #c4cef2">B+</td>
+            <td>[84+)</td>
+            <td style="background: #c4cef2">B</td>
+            <td>[75+)</td>
+            <td style="background: #c4cef2">B-</td>
+            <td>[68+)</td>
+
+
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <td style="background: #c4cef2">C+</td>
+            <td>[65+)</td>
+            <td style="background: #c4cef2">C</td>
+            <td>[62+)</td>
+            <td style="background: #c4cef2">C-</td>
+            <td>[58+)</td>
+
+
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <td style="background: #c4cef2">D+</td>
+            <td>[57+)</td>
+            <td style="background: #c4cef2">D</td>
+            <td>[55+)</td>
+            <td style="background: #c4cef2">D-</td>
+            <td>[53+)</td>
+
+
+        </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <td style="background: #c4cef2">F</td>
+            <td>[0-, 53)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+
+        </tr>
+        </tbody>
+    </table>
+    </p>
+
+    <h3>Exam Clobber Policy</h3>
+    <a class="anchor" id="secondChance"></a>
+    <p>
+        We trust that you will take ownership of, and invest in, your learning, and maintain a sustained, consistent, and efficient effort to succeed. But we know that “life happens” sometimes. The clobber policy aims to mitigate such circumstances. To take advantage of this opportunity, you must <b> redo the exam that is to be clobbered. Without the exam redo submitted by the deadline that the teaching staff will announce, you will not qualify for the clobber. </b>
+    </p>
+
+    <p>
+        <b> Exam 1 can be clobbered only by the original (not clobbered) Exam 2.  And Exam 2 can be clobbered only by Exam 3.  There is no clobber for Exam 3. </b>
+    </p>
+    <!--         <p>
+                To give students a ‘second chance’, we provide you with the opportunity to clobber a midterm.  To take advantage of this opportunity, you must <b> redo the midterm that is to be clobbered. Without the midterm redo submitted by the deadline that the teaching staff will announce, you will not qualify for the clobber. </b>
+            </p> -->
+    <!--         <p>
+                <b> Midterm 1 can only be clobbered by Midterm 2.  And Midterm 2 can only be clobbered by Midterm 3.  There is no clobber for Midterm 3. </b>
+            </p> -->
+    <p>
+    <p> <p> <font color="red"> For each exam, if you complete the exam redo, we will clobber the exam using the following formula:  </font> </p>
+    </p>
+    <p> <p> <font color="red">
+    <i>clobbered exam score = max(original exam score, your z-score on subsequent exam * the standard deviation of the subsequent exam + mean of original exam) </i>
+</font></p>
+    <p> <p> <font color="red"> So, if you receive an Exam 2 score that is 1.5 σ2 above the mean of Exam 2, you’ll get—as your clobber score for Exam 1—1.5 σ1 above the mean of Exam 1.  Here, σ1 and σ2 denote the standard deviations of Exam 1 and Exam 2, respectively. </font> </p>
+
+    <h3>Homework (HW) Party and Office Hours (OH)</h3>
+    <a class="anchor" id="hwPartyOH"></a>
+
+
+    <p>
+        Homework parties are your chance to meet and interact with other students, while also having the chance to get help from GSIs, tutors, and faculty. We expect students to treat each other with respect during homework parties as well as during all other parts of the class, including interactions on Ed, discussion, and office hours. Remember that each of you is coming into a class with different experiences and backgrounds -- use this as an opportunity to learn from one another.
+    </p>
+
+    <p> <p> <font color="red">
+    As annotated on the course Google calendar, <b> office hours will be as follows </b>.
+    <li><b> TAs and Tutors: Tuesday, Wednesday, and Thursday in Soda 410 </b></li>
+    <li><b> Professor Ayazifar: time and place (zoom) TBD (through 10/16) </b></li>
+    <li><b> Professor Tennant: Tuesdays 11-12 in 269 Cory (after 10/16) </b></li>
+
+
+    <p>
+        You can come to office hours with your study groups, or by yourself -- there will be one or more TAs and/or faculty members there to help you work through the concepts or the homework!
+    </p>
+    <p>
+        Homework parties will be held on Fridays in Soda 410. Homework parties are similar to office hours, but with more staff available and students are expected to help each other out, and if desired, form ad-hoc "pickup" homework groups in the style of a pickup basketball game.
+    </p>
+    <p>
+        We encourage you to attend office hours and homework parties—this is a fantastic way for you to find a study group!
+    </p>
+    <p>
+        Please note that all course-related questions are welcome at both homework parties and office hours!
+    </p>
+
+    </font> </p>
+
+    <h3>Homework Submission </h3>
+    <a class="anchor" id="hwSgSubmission"></a>
+    <p>
+        Turn in a single .pdf file to Gradescope consisting of your written (or typed) solutions and, if applicable, a pdf “printout” of any .ipynb code.
+    </p>
+    <p>
+        Homeworks will be released on Friday, and will be due the following <b>Friday at 11:59 PM Pacific Time.</b>
+    </p>
+    <p>
+        However, we understand that assignment submissions can be accompanied by last-minute technical difficulties or other unforeseen circumstances. So, there is a grace period until <b> Sunday night at 11:59 PM Pacific Time.</b>>
+    </p>
+
+    <p> <i>
+        Any submissions after this that have not been granted an extension will NOT receive credit.
+    </i></p>
+    <p>
+        Once you've submitted your pdf, you must select the relevant pages for every problem on Gradescope - any problems without pages selected will receive zero credit. Any problems without page(s) assigned will receive zero credit. Any coding questions that do not have the corresponding pages of your code “printout” selected will receive zero credit.
+    </p>
+    <p>
+        Solutions will be released on <b>Mondays</b>. After solutions are released, <b>you are highly encouraged to read through these solutions and compare them with your own. </b>Since we are grading on completion (see below), your homework grades are not an indication of how well you’ve understood the material. By reviewing your homework, you will know what you understood well and which topics you need to review. Consequently, you will help yourself do well on exams and you will learn the material better.
+
+    </p>
+
+
+
+
+    <h3>Exceptions & Accommodations </h3>
+    <a class="anchor" id="readerGrades"></a>
+    <p>
+        <b> Any request for an exception to an aspect of course policies must be submitted through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVyf4vJcFVk3axyPDkKuIfvzN3MiOGt6XfA71tCOsNlQWhqg/viewform?usp=sf_link" target="_blank">form</a>. </b> We very rarely grant homework exceptions beyond your two homework drops, which are for you to use in the cases of unexpected circumstances. You should not plan, a priori, to use your homework drops—use them on a necessity basis. <b>If you do NOT have DSP accommodations, you must consume your allotted two homework drops before you request a homework exception.</b>
+    </p>
+    <p>
+        We’ll handle exceptions on a case-by-case basis. Examples of situations that merit an exception include, but are not limited to, medical or family emergencies. If you require an exception, <b>please submit an exception request ASAP. If you submit a request after the assignment deadline, we may not be able to grant it.</b>
+    </p>
+    <p>
+        Accommodations will be provided to students who have letters of accommodations from the DSP Office.
+    </p>
+    <p>
+        If you face extreme hardship, please email us at eecs16a@berkeley.edu as early as you can.  The sooner you alert us that you face an intractable or otherwise overwhelming challenge, the likelier we are to be able to assist you.
+    </p>
+
+    <h3>Participation in Discussion</h3>
+    <a class="anchor" id="hwEffort"></a>
+    <p>
+        Every week, discussion will be held on <b>Monday and Wednesday.</b> Times and locations can be found on the course website. You may choose to attend any discussion section time, and are encouraged to try out different TAs’ discussion sections to find which one works best for you. Discussion sections will take place in-person.
+
+    </p>
+    <p>
+        Participation in these sessions is <b>highly encouraged</b>, as they enhance understanding of the material and provide opportunities to interact with peers and TAs. Lectures in this class move quickly, and cover a lot of material. Discussions give you the opportunity to apply the concepts to practice problems in a collaborative, small-group setting. Regular attendance makes homework more manageable, and can significantly improve your performance on exams.
+    </p>
+
+
+    <h3>Lab Policies</h3>
+    <a class="anchor" id="labDiscussion"></a>
+    <p>
+        Labs this semester will be held in-person, except where otherwise stated on Ed. Labs for this class are not open-section. <b>You must go to your assigned lab section.</b>
+    </p>
+
+    <p>
+        Credit for each lab is based on completion and checkoff with a member of lab staff during your assigned lab section. In a checkoff, you will demonstrate your work from portions of the lab and answer conceptual questions related to the lab. You should aim to get checked off by the end of your lab section. If (and only if) you attend your lab section for the whole duration but do not finish in time, you may get checked off at the beginning of your next lab section before starting the following lab. We have the following grading policy for labs: If you complete all the labs, you will receive full lab credit. We will drop your lowest two lab scores from your final grade calculation.<b> If you miss three labs, you will lose half of your lab grade. If you miss four or more labs, you will receive an F in the class.</b>
+
+    </p>
+    <p>
+        <b>Some lab sections are “buffer labs”.</b> These are held during a week-long period at the end of each lab module in which no new labs begin.
+    </p>
+    <p>
+        You may get checked off for <b>only one missed lab per lab module </b>by attending a buffer lab for that module. No other labs can be checked off (except for extenuating circumstances, please email our lab staff at eecs16a.lab@). If you have already completed all labs for a particular lab module, you do not need to attend a buffer lab for that module.
+
+    </p>
+    <p>
+        Students must sign up for a buffer lab before attending. Please note that not all regularly scheduled lab sections will be run as buffer lab sections. Further details will be shared duly on Ed.
+    </p>
+
+    <h3>Exam Policies</h3>
+    <p> <p> <font color="red">
+    <p><b> There are three, in-person, exams in this course. </b></p>
+    <p><b> The first exam will be held on Tuesday, September 17th from 8 to 9:30 PM. </b></p>
+    <p><b> The second exam will be held on Tuesday, October 29th from 8 to 9:30 PM.</b></p>
+    <p><b> The third exam will be held on Thursday, December 5th from 8 to 9:30 PM.</b></p>
+    <p>Specific policies and logistics about the exams will be announced closer to their dates, so please monitor Ed regularly for updates.</p>
+    </font></p>
+    <p><b> If you have an exam conflict, please contact us immediately and provide documentation of the conflict.  </b></p>
+    <p>
+        Please plan for exams at these times. In case of an emergency on exam day, please email the Head GSI at eecs16a@berkeley.edu as soon as possible and provide details of the issue as well as a contact phone number. Emergency exam conflicts will be handled on a case-by-case basis. Exam conflicts originating from a lecture conflict will not be accommodated.
+    </p>
+    <p>
+        Regrade requests are typically open soon after exam scores are released. Late regrade requests will not be considered. If a regrade request is submitted for a part of a question on the exam, the grader reserves the right to regrade the entire exam and could potentially take points off.
+    </p>
+
+
+
+    <h3>Academic Honesty</h3>
+    <p>
+        By default, we treat you with utmost respect and trust, and expect you to not only reciprocate, but to also conduct yourselves in a manner becoming of the high standards of our UC Berkeley community.
+    </p>
+
+    <p>
+        We expect that any item you submit for evaluation reflects your original, bona fide work, and that you have neither provided to, nor received from, anyone excessive or unreasonable assistance that might, to a reasonable observer, constitute an unfair advantage for you or for any of your peers in the class.
+    </p>
+    <p>
+        As a member of the UC Berkeley community, you must act with honesty, integrity, respect for others, and impeccable professional responsibility—and to carry yourselves in a manner consistent with the letter and the intent of the campus <a href="https://conduct.berkeley.edu/code-of-conduct/">Code of Student Conduct</a>.
+    </p>
+    <p>
+        You must not violate—nor aid or abet anyone else to violate—our course policies, including any policy that we might convey to you as part of the various course components (such as instructions for a problem set, lab, or exam).
+    </p>
+    <p>
+        More generally, in the course of this semester, you must not commit any act that violates—nor aid or abet anyone else to violate—UC Berkeley, state, or Federal regulations.
+    </p>
+    <p>
+        In EECS 16A we will have zero-tolerance for academic misconduct. Consequences for students who violate the principles outlined above will be severe.
+    </p>
+
+
+
+    <h3>Course Communication</h3>
+    <a class="anchor" id="communication"></a>
+    <p>
+        <b>The instructors and TAs will post announcements, clarifications, hints, etc. on Ed.</b> So, you must check
+        the EECS 16A Ed page frequently throughout the term.  (You should already have access to the EECS 16A Fall 2024 Ed. If you do not, please let us know.)
+
+    </p>
+    <p>
+        If you have a question, your best option is to post a message on Ed. The staff (instructors and TAs) will check Ed regularly, and if you use Ed, other students will be able to help you too. When using Ed, please avoid off-topic discussions, and please do not post answers to homework questions before the homework is due. Also, always look for an appropriate category to post the question to (for example, each homework will have its own category, so please post there). That will ensure you get the answer faster.
+    </p>
+    <p>
+        If your question is personal or not of interest to other students, we encourage you to email us (see the top of this page for all the course emails) rather than making private Ed posts. If you wish to talk with one of us individually, you are welcome to come to our office hours. Please reserve email for the questions you can’t get answered in office hours, in discussion sections, or through Ed.
+    </p>
+
+    <h3>Feedback</h3>
+    <p>
+        It can be challenging for professors and course staff to gauge how smoothly the class is going. We always welcome any feedback on what we could be doing better. Direct communication is preferred so that we can ask follow-up questions if necessary. However, if you would like to send us a message anonymously, please use this <a href="https://docs.google.com/forms/d/e/1FAIpQLSeus0T4f3v3Nrhi9jqEz_RATsF5k3zQeFTcNP2_cr7ZoODf8A/viewform?usp=sf_link" target="_blank">form</a>.
+    </p>
+
+    <h3>Collaboration on Homework</h3>
+    <a class="anchor" id="collaboration"></a>
+    <p>
+        We encourage you to work on homework problems in study groups; however, you must always write up the solutions on your own. Similarly, you may use books or online resources to help solve homework problems, but you must always credit all such sources in your write up, and you must never copy material verbatim.<b> Using previous EECS 16A homework, exam, and lab solutions is strictly prohibited, and will be considered academic misconduct.</b> We expect that most students can distinguish between helping other students and academic misconduct. Explaining the meaning of a question, discussing a way of approaching a solution, or collaboratively exploring how to solve a problem within your group is an interaction that we strongly encourage. But you should write your homework solution strictly by yourself, and you are not allowed to give your homework to other students to copy. You should never possess a copy (written or digital) of another student’s work. You should acknowledge everyone whom you have worked with, or who has given you any significant ideas about the homework. <b>This is good scholarly conduct.</b>
+    </p>
+
+
+
+    <h3>Don't Be Afraid to Ask for Help</h3>
+
+    <p>
+        Are you struggling? Please come talk with us! The earlier we learn about your struggles, the more likely it is that we can help you. Waiting until right before an exam or the last few weeks of the semester to let us know about your problems is not an effective strategy - the later it is, the less we will be able to help you.
+    <p>
+        Even if you are convinced that you are the only person in the class who is struggling, please overcome any
+        feelings of embarrassment or guilt, and come ask for help as soon as you need it -- we can almost guarantee
+        you're not the only person who feels this way. Don't hesitate to ask us for help -- we really do care that you
+        thrive! You can email <a rel="noopener noreferrer" target="_blank" href="mailto:eecs16a@berkeley.edu">eecs16a@berkeley.edu</a>,
+        or email / talk to any course staff at any time -- we’re happy to help.
+    </p>
+
+    <h3>Health-related Issues</h3>
+    <a class="anchor" id="health"></a>
+    <p>
+        If you have symptoms of COVID or any other potentially contagious illness, please do not attend in-person activities.
+        Instead, keep up with the class by watching the lecture recordings. We will post PDFs of each discussion worksheet
+        on the course website, and post detailed solutions the next day, so you can follow along with discussion asynchronously.
+        If you miss a lab section, please try to make up the lab during buffer week. However, if you would miss multiple labs or miss the buffer section due to illness,
+        please email <a rel="noopener noreferrer" target="_blank" href="mailto:eecs16a.lab@berkeley.edu">eecs16a.lab@berkeley.edu</a>,
+        and we will do our best to accommodate you.
+    </p>
+    <p>
+        Regarding exams, if you have contagious symptoms or COVID, please do not attend the exam in person. Instead, please reach out to us as soon as possible, preferably well ahead of the exam time. We will handle these situations on a case-by-case basis.
+    </p>
+    <p>
+        If you have a medical emergency that would prevent you from keeping up with the class asynchronously or would
+        prevent you from attending class in-person for a longer duration, please email <a rel="noopener noreferrer" target="_blank" href="mailto:eecs16a@berkeley.edu">eecs16a@berkeley.edu</a>.
+    </p>
+
+    <h3>Inclusion</h3>
+    <a class="anchor" id="inclusion"></a>
+    <p>
+        We are committed to creating an environment welcoming of all students where everyone can fulfill their potential
+        for learning. To do so, we intend to support a diversity of perspectives and experiences and respect each
+        others’ identities and backgrounds (including race/ethnicity, nationality, gender identity, socioeconomic class,
+        sexual orientation, language, religion, ability, etc.). To help accomplish this:
+    <ul>
+        <li>
+            If you feel like your performance in the class is being impacted by a lack of inclusion, please contact the
+            instructors, an academic advisor, or the departmental Faculty Equity Advisor
+            (https://engineering.berkeley.edu/about/equity-and-inclusion/faculty-equity-advisers/).
+        </li>
+        <li>
+            An anonymous feedback form is also available at <a
+                href="https://engineering.berkeley.edu/about/equity-and-inclusion/feedback/" target="_blank">https://engineering.berkeley.edu/about/equity-and-inclusion/feedback/</a>.
+        </li>
+        <li>
+            If you feel like your performance in the class is being impacted by your experiences outside of class (e.g.,
+            family matters, current events), please don’t hesitate to come and talk with the instructor(s) or academic
+            advisors in Engineering Student Services. We want to be a resource for you.
+        </li>
+        <li>
+            There is no tolerance for sexual harassment or violence. If your behavior harms another person in this
+            class, you may be removed from the class or the University either temporarily or permanently.
+        </li>
+        <li>
+            If you have a name and/or pronouns that differ from your legal name, designate a preferred name for use in
+            the classroom at: <a href="https://registrar.berkeley.edu/academic-records/your-name-records-rosters"
+                                 target="_blank">https://registrar.berkeley.edu/academic-records/your-name-records-rosters</a>.
+        </li>
+        <li>
+            As a participant in this class, recognize that you can be proactive about making other students feel
+            included and respected.
+        </li>
+    </ul>
+    </p>
+
+    <h3>Berkeley Honor Code</h3>
+    <a class="anchor" id="honor"></a>
+    <p>
+        Everyone in this class is expected to adhere to this code: “As a member of the UC Berkeley community, I act with
+        honesty, integrity, and respect for others.”
+    </p>
+
+    <h3>Accommodation policy</h3>
+    <a class="anchor" id="accomodation"></a>
+    <p> We honor and respect the different learning needs of our students, and are committed to ensuring you have the
+        resources you need to succeed in our class. If you need religious or disability-related accommodations, if you
+        have emergency medical information you wish to share with us, please email us at <a rel="noopener noreferrer" target="_blank" href="mailto:eecs16a@berkeley.edu">eecs16a@berkeley.edu</a> and
+        Please also see the information regarding DSP (Disabled Student’s Program) and CAPS (Counseling and Psychological Services) in the Resources section below.
+    </p>
+
+    <h3>Course Content Policy</h3>
+    <a class="anchor" id="content-distribution"></a>
+    <p> You are free and encouraged to use course materials for personal use (in collaborations with other students, in
+        your research, etc.). <b>You may NOT post HW/Exams/Solutions anywhere on the web</b> because this could
+        encourage cheating down the road. You are expressly prohibited from uploading course materials to websites such
+        as coursehero.com or chegg.com, which distribute and monetize content without compensation to the University.
+        Course material, including all video, is copyrighted and reposting to third party sites or any other form of
+        redistribution is prohibited.
+    </p>
+
+    <h3>Resources</h3>
+    <a class="anchor" id="otherresources"></a>
+
+    <h3>For academic performance:</h3>
+    <p>
+        <a href="https://engineering.berkeley.edu/student-services/academic-support" target="_blank">
+            The Center for Access to Engineering Excellence or CAEE </a>(325 Davis Hall) is an inclusive center that offers study spaces, nutritious snacks, and tutoring in >50 courses for Berkeley engineers and other majors across campus. The Center also offers a wide range of professional development, leadership, and wellness programs, and loans iclickers, laptops, and professional attire for interviews.
+        <a href="https://studenttech.berkeley.edu/step" target="_blank">Technology Needs (STEP)</a>: Student Technology Equity Program (STEP). STEP provides need-based laptops and other technologies for free for undergraduate, graduate, and professional students at UC Berkeley.
+    </p>
+    <h3>For disability accommodations:</h3>
+    <p>
+        <a href="https://dsp.berkeley.edu" target="_blank">The Disabled Student’s Program</a> (DSP 260 César Chávez Student Center #4250; 510-642-0518) serves students with disabilities of all kinds, including temporary disabilities. Services are individually designed and based on the specific needs of each student as identified by DSP's Specialists. If you have already been approved for accommodations through DSP, please know that DSP is ready to quickly adjust your accommodations if your situation changes.
+
+    <h3>For mental wellbeing:</h3>
+    <p>
+        <a href="https://uhs.berkeley.edu/caps" target="_blank">Counseling and Psychological Services</a> is available as part of University Health Services at the Tang Center (2222 Bancroft Way #4300; 510-642-9494). Services are offered at many locations, including <a href="https://engineering.berkeley.edu/students/advising-counseling/counseling/" target="_blank"> on-site in the College of Engineering</a>. CAPS services are available to all students, regardless of insurance, and initial visits do not cost anything. CAPS has expanded allowing students to receive help immediately with same-day counseling (510-642-9494), online resources, and a 24/7 counseling line at 855-817-5667. Short-term help is also available from the Alameda County Crisis hotline: 800-309-2131. If you, or someone you know, is experiencing an emergency that puts their health at risk, please call 911.
+
+    <h3>For recovery from sexual harassment or sexual assault:</h3>
+    <p>
+        <a href="https://care.berkeley.edu/care-line/">The Care Line (PATH to Care Center) </a>(510-643-2005) is a 24/7, confidential, free, campus-based resource for urgent support around sexual assault, sexual harassment, interpersonal violence, stalking, and invasion of sexual privacy. The Care Line will connect you with a confidential advocate for trauma-informed crisis support including time-sensitive information, securing urgent safety resources, and accompaniment to medical care or reporting.
+    </p>
+    <h3>For solving a dispute:</h3>
+    <p>
+        <a href="http://students.berkeley.edu/Ombuds" target="_blank">The Ombudsperson for Students</a>  (250 Sproul Hall; 510-642-5754) provides a confidential service for students involved in a University-related problem (academic or administrative), acting as a neutral complaint resolver and not as an advocate for any of the parties involved in a dispute. The Ombudsman can provide information on policies and procedures affecting students, facilitate students' contact with services able to assist in resolving the problem, and assist students in complaints concerning improper application of University policies or procedures. All matters referred to this office are held in strict confidence. The only exceptions, at the sole discretion of the Ombudsman, are cases where there appears to be imminent threat of serious harm.
+
+    </p>
+    <h3>For basic needs (food, shelter, etc):</h3>
+    <p>
+        <a target="_blank" href="https://basicneeds.berkeley.edu/">The Basic Needs Center</a> provides housing, food, transportation support, among other support needed to thrive at UC Berkeley. Specifically, the <a href="https://pantry.berkeley.edu/" target="_blank">UC Berkeley Food Pantry</a>  (check-in at 1st floor of MLK Student Union) aims to reduce food insecurity among students, especially the lack of nutritious food. Students can visit the pantry as many times as they need and take as much as they need while being mindful that it is a shared resource. The pantry operates on a self-assessed need basis; there are no eligibility requirements. The pantry is not for students and staff who need supplemental snacking food, but rather, core food support.
+    </p>
+
+    <h3>Advice</h3>
+    <a class="anchor" id="advice"></a>
+    <p>
+        The following tips are offered based on our experience.
+    </p>
+    <p>
+        <b>Do the homeworks!</b> The homework is explicitly designed to help you to learn the material as you go along.
+        There is usually a strong correlation between homework scores and final grades in the class.
+    </p>
+    <p>
+        <b>Attend the lectures! </b> Discussion sections, labs and homeworks all touch on portions of what we discuss in lecture. Attending lectures in person ensures that you will stay on track, and also allows you to get the most out of the lectures. The lecture recordings serve best when used to revisit sections of lecture as necessary, and in the hopefully rare cases of illness or an unavoidable time conflict.
+    </p>
+    <p>
+        <b>Take part in discussion sections!</b> Discussion sections are not auxiliary lectures. They are an opportunity for interactive learning. The success of a discussion section depends largely on the willingness of students to participate actively in it. As with office hours, the better prepared you are for the discussion, the more likely you are to benefit from it.
+
+    </p>
+    <p>
+        <b>Come to office hours!</b> We love to talk to you and do a deep dive to help you understand the material better.
+
+    </p>
+    <p>
+        <b>Form study groups!</b> As stated above, you are encouraged to form small groups (two to four people) to work together on homeworks and on understanding the class material on a regular basis. In addition to being fun, this can save you a lot of time by generating ideas quickly and preventing you from getting hung up on some point or other. Of course, it is your responsibility to ensure that you contribute actively to the group; passive listening will likely not help you much. And recall the caveat above that you must write up your solutions on your own. We strongly advise you to spend some time on your own thinking about each problem before you meet with your study partners; this way, you will be in a position to compare ideas with your partners, and it will get you in practice for the exams. Make sure you work through all problems yourself, and that your final write-up is your own. Some groups try to split up the problems ("you do Problem 1, I'll do Problem 2, then we'll swap notes"); not only is this a punishable violation of our collaboration policies, it also ensures you will learn a lot less from this course.
+    </p>
+</div>    </div>
   </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
