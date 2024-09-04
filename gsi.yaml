@@ -1,12 +1,12 @@
  -   name: Vivian Catherine Wu
-     email: vivianwuc25@
+     email: vivianwuc25@ , eecs16a@
      role: Head TA
      bio: Hi, it’s Vivian! I’m a senior majoring in EECS and Business, originally from San Diego, CA. I'm currently exploring applications of AI/ML and tech in business. In my free time, I enjoy traveling, reading, eating (very) spicy food, and drinking matcha. 16A was one of my favorite courses, and it's my mission to make it as rewarding and enriching for you as it was for me!
      image: VivianWu.jpg
      imageFun: VivianWuFun.jpg
      pronouns: she/her/hers
  -   name: Mishty Mou Dhekial
-     email: mdhekial@
+     email: mdhekial@ , eecs16a@
      role: Head TA
      bio: "Hello!! I'm a junior majoring in EECS and minoring in data science. In my free time, I enjoy trying delicious new food, learning the electric guitar, and going on trips with my friends. Feel free to reach out any time. :)"
      image: MishtyDhekial.jpg
@@ -24,17 +24,24 @@
      image: ThomasChen.jpg
      pronouns: he/him
  -   name: Venkata Sesha Sai Alapati
-     email: venkata.alapati@
+     email: venkata.alapati@ , eecs16a.lab@
      role: Lab Head TA
      bio: "Hi, I am 5th years EECS student interested in biorobotics/automating biological experiments. In my free time, I enjoy watching way more Netflix than I should and cooking (mostly) edible things. I have been on 16B course staff for while and just jumped ship to 16A. Feel free to reach out if you have any questions or just want to chat!"
      image: VenkataAlapati.jpg
      imageFun: VenkataAlapatiFun.jpg
      pronouns: he/him/his
  -   name: Nikhil Ograin
-     email: ncograin@
+     email: ncograin@ , eecs16a.lab@
      role: Lab Head TA
      bio: "Hi! I’m Nikhil and I’m a fourth year EECS major. This is my sixth semester on course staff! My technical interests are low-level programming, computer architecture, and power electronics. In my freetime I read books, play board/card/video games, look at airplanes, and bicycle. I’m so excited to delve back into circuits and meet everyone in lab! Feel free to reach out about the course, about lab, or about anything else!"
      image: NikhilOgrain.jpg
+ -   name: Jack Kang
+     email: dongwon900@ , eecs16a.lab@
+     image: JackKang.jpg
+     role: Lab Head TA
+     imageFun: JackKang_Funny.JPG
+     bio: Hello! My name is Jack, and I'm a rising senior majoring in CS. I'm passionate about building things, with my current technical interests being in signal processing, communications, medical devices, and RF design. I often tell my students not to 'suffer in silence'; please don't hesitate to reach out to me in and outside of lab!
+     pronouns: he/him/his
  -   name: Leon Kornfeld
      email: leonkornfeld@
      role: Software TA
