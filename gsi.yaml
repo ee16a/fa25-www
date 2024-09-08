@@ -235,13 +235,13 @@
      bio: "Hi, everyone! My name is Ayesha, and I'm an incoming junior majoring in computer science and data science. A lot of my technical interests revolve around computational biology, as I do research for the Nielsen Lab, where I'm currently working on designing a DNA probing algorithm. This will be my third semester on course staff for 16A, and I'm really excited to get back into the lab and start building circuits. Circuit theory and design is definitely my favorite part of the course because I find it very interesting how circuits themselves can execute (machine) code too. I look forward to meeting you all this semester and please don't hesitate to reach out if you have any questions!"
      image: AyeshaMahfuz.jpg
      pronouns: she/her
- -   name: Mihir Marathe
-     email: mihirmarathe@
-     role: Lab Staff ASE
-     bio: "Hi! I'm a third year EECS major from the Bay Area interested in circuits and signal processing. In my free time, I love to watch and play football and basketball. 16A can be challenging, but I hope to make it an enjoyable experience. Feel free to reach out about anything!"
-     image: MihirMarathe.jpg
-     imageFun: MihirMaratheFun.jpg
-     pronouns: he/him/his
+# -   name: Mihir Marathe
+#     email: mihirmarathe@
+#     role: Lab Staff ASE
+#     bio: "Hi! I'm a third year EECS major from the Bay Area interested in circuits and signal processing. In my free time, I love to watch and play football and basketball. 16A can be challenging, but I hope to make it an enjoyable experience. Feel free to reach out about anything!"
+#     image: MihirMarathe.jpg
+#     imageFun: MihirMaratheFun.jpg
+#     pronouns: he/him/his
  -   name: Mia Wang
      email: miawang@
      role: Lab Staff ASE
