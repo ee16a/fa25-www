@@ -222,7 +222,7 @@
   role: Tutor
   bio: Hello, I'm Jordi and this is my first semester as course staff. I like linear
     algebra and sometimes sentences don't end the way they potato
-  image: jorditedja.jpg
+  image: JordiTedja.jpg
   imageFun: #jorditedja2.jpg
   pronouns: he/him
 - name: Phoenix Wilson
@@ -232,6 +232,6 @@
     I am most interested in machine learning, quantum computing, and the underlying
     math they can both be described by. In my spare time, I like to write music, exercise,
     and spend time with friends and family. '
-  image: PhoenixWilson.jpg
+  image: PhoenixWilson.JPG
   imageFun: PhoenixWilsonSilly.JPG
   pronouns: he/him
