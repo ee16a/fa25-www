@@ -10,6 +10,7 @@
 
       gtag('config', 'UA-174929475-2');
     </script>
+    <link rel="icon" href="img/EECS16AOfficialLogo.png" type="image/png">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,7 +34,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="." style="color: #000;"><strong>EECS16A</strong> | Spring 2025</a>
+              <a class="navbar-brand" href="." style="color: #000; display: flex; align-items: center;">
+                <strong>EECS16A</strong> | Spring 2025
+                <img src="img/EECS16AOfficialLogo.png" alt="Logo" style="height:35px; margin-left:5px;">
+            </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse" >
               <ul class="nav navbar-nav pull-right">
@@ -176,13 +180,82 @@ div.indentsmall {
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
 }
-</style>
-<h2>Important Course Information/Scheduling Updates</h2>
-<a class="anchor" id="updates"></a>
 
-<!-- <p>Lecture is every <b>Monday</b> and <b>Wednesday</b> from <b>6:30 - 8:00 pm</b> in <b>Pimentel 1.</b></p>
-<p><b>Please find the OH schedule under the <a href="https://eecs16a.org/#google-calendar">calendars section</a></b></p> -->
-<p><b style="color: red;">Please add yourself to the Gradescope using code R7G8Z5, if you are not in it already.</b></p>
+
+
+/* New styles for the content wrapper */
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the content */
+}
+</style>
+<!-- Wrap the content in a div with the new class -->
+<div class="content-wrapper">
+  <div class="text-content">
+    <h2>Important Course Information/Scheduling Updates</h2>
+    <a class="anchor" id="updates"></a>
+    <!-- <p>Lecture is every <b>Monday</b> and <b>Wednesday</b> from <b>6:30 - 8:00 pm</b> in <b>Pimentel 1.</b></p>
+    <p><b>Please find the OH schedule under the <a href="https://eecs16a.org/#google-calendar">calendars section</a></b></p> -->
+    <p><b style="color: blue;">Please meet EECS16A's new mascot: Daniel the SPANiel.</b></p>
+  </div>
+  <div class="image-content">
+    <img src="img/EECS16AOfficialLogo.png" alt="Logo" style="height:150px;">
+  </div>
+</div>
+
+<div id="snackbar1">copied password to clipboard!</div>
+<div id="snackbar2">changed site font!</div>
+
+
+
+<script>
+function fontChange(f) {
+	if (typeof(Storage) !== "undefined") {
+    var prev = localStorage.getItem("fontFamily");
+	  localStorage.setItem("fontFamily", f);
+	  document.body.style.fontFamily = localStorage.getItem("fontFamily");
+    showFontChange(f, prev);
+	}
+}
+
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+
+  showCopied();
+}
+
+function showCopied() {
+  var x = document.getElementById("snackbar1");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function showFontChange(f, prev) {
+  var x = document.getElementById("snackbar2");
+  if (prev == f) {
+    x.innerHTML = "site font is already ".concat(prev).concat("!");
+  }
+  else {
+    x.innerHTML = "changed site font to: ".concat(f).concat("!");
+  }
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+</script>
+
+
+
+
+
+
+
 
 
 <!-- <p><b> 05/15/22: </b>Congrats on completing another semester! Final Solutions have been uploaded and can be found <a href="student-resources/exams/sp22_final_sol.pdf" target="_blank">here</a></p> -->
@@ -327,50 +400,7 @@ div.indentsmall {
 
 <div class="indentsmall">
 	<p> Lectures: MTuWTh 9:30-11:00 AM PST, <a href="https://berkeley.zoom.us/j/93838650239" target="_blank"> Lecture Zoom Link </a>, Phone: +1 669 900 6833, Meeting ID: 938 3865 0239 </p>
-</div> -->
-
-<div id="snackbar1">copied password to clipboard!</div>
-<div id="snackbar2">changed site font!</div>
-
-<script>
-function fontChange(f) {
-	if (typeof(Storage) !== "undefined") {
-    var prev = localStorage.getItem("fontFamily");
-	  localStorage.setItem("fontFamily", f);
-	  document.body.style.fontFamily = localStorage.getItem("fontFamily");
-    showFontChange(f, prev);
-	}
-}
-
-function copyToClipboard(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
-
-  showCopied();
-}
-
-function showCopied() {
-  var x = document.getElementById("snackbar1");
-  x.className = "show";
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-}
-
-function showFontChange(f, prev) {
-  var x = document.getElementById("snackbar2");
-  if (prev == f) {
-    x.innerHTML = "site font is already ".concat(prev).concat("!");
-  }
-  else {
-    x.innerHTML = "changed site font to: ".concat(f).concat("!");
-  }
-  x.className = "show";
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-}
-</script>
-<div class='row'>
+</div> --><div class='row'>
   <a class="anchor" id="schedule"></a>
   <h2>Schedule</h2>
   <p> <b>Lecture videos can be found in the bcourses modules page</a></b></p>
@@ -3010,6 +3040,17 @@ document.addEventListener('DOMContentLoaded', function() {
     Tutor<br/>
     <small> he/him </small> <br/>
     phoenixw@
+    </div>
+      <div class='col-md-3 center col-sm-4 col-xs-6 bottomspace'>
+        <img class='headshot img-circle' src='photos-gsi/DanielSpaniel.png' id="gsi26" data-toggle="modal" data-target="#modal_gsi26"/>
+      <button type="button" class="gsicollapsible">Click to Toggle Bio!</button>
+      <div class="gsicontent">
+        <p><small>I&#x27;m the EECS 16A Spaniel. Leon was bored one day and came to the realization that eecs16a.org didn&#x27;t have a browser icon. He decided he needed to 1-up the CS61Bee and thus I, Daniel the SPANiel was born. Woof</small></p>
+      </div>
+    <b>Daniel the Spaniel</b><br/>
+    Mascot<br/>
+    <small>  </small> <br/>
+    no email :D
     </div>
 </div>
 <div class='row' style="margin-top: -20px;">

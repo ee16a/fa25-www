@@ -235,3 +235,13 @@
   image: PhoenixWilson.JPG
   imageFun: PhoenixWilsonSilly.JPG
   pronouns: he/him
+- name: Daniel the Spaniel
+  email: no email :D
+  role: Mascot
+  bio: I'm the EECS 16A Spaniel. Leon was bored one day and came to the realization that eecs16a.org didn't have a browser icon. He decided he needed to 1-up the CS61Bee and thus I, Daniel the SPANiel was born. Woof
+  image: DanielSpaniel.png
+# - name: 
+#   email: b
+#   role: Mascot
+#   bio: 'I’m the EECS 16A Spaniel. Leon was bored one day and came to the realization that eecs16a.org didn't have a browser icon. He decided he needed to 1-up the CS61Bee from CS61B and thus I, Daniel the SPANiel was born. Woof'
+#   image: 
