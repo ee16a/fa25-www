@@ -17,7 +17,7 @@
     <link rel="shortcut icon" href="http://eecs.berkeley.edu/favicon.ico" type="image/x-icon">
     <link href="bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-    <title>EECS16A: Foundations of Signals, Dynamical Systems, and Information Processing, Spring 2025</title>
+    <title>EECS16A: Foundations of Signals, Dynamical Systems, and Information Processing, Fall 2025</title>
   </head>
 
   <body data-spy="scroll" data-target="#navscroll" onload="getCurrFont()">
@@ -33,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="." style="color: #000;"><strong>EECS16A</strong> | Spring 2025</a>
+              <a class="navbar-brand" href="." style="color: #000;"><strong>EECS16A</strong> | Fall 2025</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse" >
               <ul class="nav navbar-nav pull-right">
@@ -77,9 +77,9 @@
                 <li class="dropdown">
                   <a class="dropbtn">Links</a>
                   <div class="dropdown-content">
-                    <a target="_blank" href="https://edstem.org/us/courses/74744/discussion">Ed</a>
+                    <a target="_blank" href="https://edstem.org/us/courses/83783">Ed</a>
                     <a target="_blank" href="https://oh.eecs16a.org">OH Queue</a>
-                    <a target="_blank" href="https://www.gradescope.com/courses/962750">Gradescope</a>
+                    <a target="_blank" href="https://www.gradescope.com/courses/1095473">Gradescope</a>
 <!--                    <a target="_blank" href="">Lab Checkoff</a>-->
 <!--                    <a target="_blank" href=">Discussion Attendance</a>-->
 <!--                    <a target="_blank" href="">Accommodations and Exceptions</a>-->
@@ -89,7 +89,7 @@
 
                   </div>
                 </li>
-                <li><a id="na6" href="index.html#about">About</a></li>
+                <!-- <li><a id="na6" href="index.html#about">About</a></li> -->
               </ul>
             </div>
           </div>
@@ -119,17 +119,17 @@ function getCurrFont() {
 
 <div class='row'>
   <h1><b>EECS16A</b>, Foundations of Signals, Dynamical Systems, and Information Processing</h1>
-  <h3>Spring 2025</h3>
+  <h3>Fall 2025</h3>
 </div>
 
 <div class='row'>
     <a class="anchor" id="policies"></a>
 
     <h2>Policies</h2>
-
+<!--
     <h3>Course Info</h3>
     <a class="anchor" id="courseInfo"></a>
-    <!-- Summer 2024-->
+
     <p>
         EECS 16A is an introductory-level course that introduces students to the systems side of EECS. It emphasizes systems that interact with the world from an informational point of view. Design-oriented modeling and analysis are important themes throughout this course, and we anticipate that you’ll learn many mathematical concepts, tools, and techniques along the way.
     </p>
@@ -203,39 +203,9 @@ function getCurrFont() {
                 </table>
             </div>
         </div>
-<!--        <div id="canvasParent" class='col-sm-7' style="position: relative">-->
-<!--            <div id="gradebreakdown" style="height: 400px;"></div>-->
-<!--        </div>-->
+
     </div>
-<!--    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>-->
 
-<!--    <script type="text/javascript">-->
-<!--            google.charts.load('current', {'packages':['corechart']});-->
-<!--            google.charts.setOnLoadCallback(drawChart);-->
-
-<!--            function drawChart() {-->
-<!--                var data = google.visualization.arrayToDataTable([-->
-<!--                    ['Category', 'Percentage of Overall Grade'],-->
-<!--                    ['Homework', 10% (Lowest two scores dropped)],-->
-<!--                    ['Lab', 20% (Lowest two sessions dropped)],-->
-<!--                    ['Exam 1', 20%],-->
-<!--                    ['Exam 2', 25%],-->
-<!--                    ['Exam 3', 25%],-->
-
-<!--                ]);-->
-
-<!--                var options = {-->
-<!--                    'title': 'EECS 16A Grade Breakdown',-->
-<!--                    'width': 550,-->
-<!--                    'height': 400,-->
-<!--                    'chartArea': {'width': '90%', 'height': '90%'},-->
-<!--                    'legend': {'position': 'bottom'},-->
-<!--                    'backgroundColor': { fill:'transparent' }-->
-<!--                };-->
-
-<!--                var chart = new google.visualization.PieChart(document.getElementById('gradebreakdown'));-->
-<!--                chart.draw(data, options);-->
-<!--            }-->
         </script>
 
 
@@ -263,12 +233,7 @@ function getCurrFont() {
     <p>
         <b> Exam 1 can <u>only</u> be clobbered by the original (not clobbered) Exam 2. Exam 2 can <u>only</u> be clobbered by Exam 3. There is <u>no</u> clobber for Exam 3. </b>
     </p>
-    <!--         <p>
-                To give students a ‘second chance’, we provide you with the opportunity to clobber a midterm.  To take advantage of this opportunity, you must <b> redo the midterm that is to be clobbered. Without the midterm redo submitted by the deadline that the teaching staff will announce, you will not qualify for the clobber. </b>
-            </p> -->
-    <!--         <p>
-                <b> Midterm 1 can only be clobbered by Midterm 2.  And Midterm 2 can only be clobbered by Midterm 3.  There is no clobber for Midterm 3. </b>
-            </p> -->
+
     <p style="color: red;">
         For each exam, if you complete the exam redo, we will clobber the exam using the following formula:
     </p>
@@ -637,6 +602,7 @@ function getCurrFont() {
         <p>
             <b>Form study groups!</b> As stated above, you are encouraged to form small groups (two to four people) to work together on homeworks and on understanding the class material on a regular basis. In addition to being fun, this can save you a lot of time by generating ideas quickly and preventing you from getting hung up on some point or other. Of course, it is your responsibility to ensure that you contribute actively to the group; passive listening will likely not help you much. And recall the caveat above that you must write up your solutions on your own. We strongly advise you to spend some time on your own thinking about each problem before you meet with your study partners; this way, you will be in a position to compare ideas with your partners, and it will get you in practice for the exams. Make sure you work through all problems yourself, and that your final write-up is your own. Some groups try to split up the problems ("you do Problem 1, I'll do Problem 2, then we'll swap notes"); not only is this a punishable violation of our collaboration policies, it also ensures you will learn a lot less from this course.
         </p>
+-->
 </div>    </div>
   </div>
 
