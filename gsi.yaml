@@ -1,10 +1,17 @@
 - name: Mishty Dhekial
-  email: mdhekial@
+  email: mdhekial@, eecs16a@
   role: Admin, Discussion TA
   bio: Hi! I'm a senior studying EECS and minoring in data science. This is my third semester on EECS16A staff and as Head TA for the course. Previously, I was on EECS16B staff for two semesters. In my free time, I enjoy exploring new places with friends, eating good food, and (poorly) playing the electric guitar. Hope you enjoy the class!!
   image: MishtyDhekial.jpeg
   imageFun: MishtyDhekialsilly.png
   pronouns: she/her/hers
+
+- name: Sabriya Alam
+  email: sabriya.alam@, eecs16a@
+  role: Admin TA
+  bio: Hi! I’m Sabriya, and I'm PhD student in Computer Science, with a focus in AI and human-computer interaction. I'm interested in how large language models can be designed, evaluated, and deployed to reliably meet the information needs and interaction habits of marginalized communities, especially in sectors like education, healthcare, and spiritual support. I’ve been part of 16A course staff three times—as a GSI, Admin TA, and Instructor—and I’m excited to be back for another great semester! Please feel free to reach out if you have questions, or if you’d just like to chat about research, career paths, or grad school!
+  image: SabriyaAlam.png
+  imageFun: SabriyaAlamSilly.png
 
 - name: Jaimyn Drake
   email: jaimyndrake@
